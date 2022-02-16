@@ -1,33 +1,127 @@
-html{
-	background-color: black;
+html,body{
+	background-color: white;
+	height: 100%;
 }
-
+.body-section{
+	min-height: calc(100vh - 50px - 139.31px);
+}
 .navbar{
-	background-color: grey;
+	background-color: white;
 	height: 50px;
 	text-align: right;
 	width: 100%;
-	display: flex;
+	display: block;
 
 }
 .active{
-	flex: 1;
+	text-decoration: none;
 	margin: auto;
 	padding-left: 20px;
+	color: black;
+}
+.navbar a{
+	padding-left: 10px;
+	
+}
+.navbar a:hover{
+	text-
 }
 .center{
 	display: block;
-	margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+	margin: auto;
+    width: 20%;
+	padding-top: 10px;
 }
-.container{
-	float: none;
-  position: absolute;
-  bottom: auto;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
+#info{
+	margin: auto;
+	padding: 2%;
+    color: white;
+	border-radius: 10px 25px;
+}
+#info div{
+	text-align: center;
+}
+.SB{
+	background: white;
+	border-radius: 25px;
+	border: 1px solid #70757a;
+	opacity: 0.5;
+	display: inline-block;
+	width: 50%;
+	height: 35px;
+}
+.search{
+	margin: auto;
+	width: 90%;
+	height: 30px;
+	border-radius: 10px;
+	border: none;
+	background-color: white;
+}
+form button{
+	border: none;
+	background-color: white;
+}
 
+.SB:hover{
+	border: 1px solid;
+  padding: 5px;
+  color: #70757a;
+	box-shadow: 1px 2px 8px ;
+}
+.second{
+	text-align: center;
+}
+
+.button{
+	margin: 10px 10px;
+	display: inline-block;
+	align-content: center;
+	border-style: hidden;
+	padding-left: 10px 0px 10px 0px;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	border-radius: 6px;
+}
+.button:hover{
+	border: 1px solid rgb(231, 231, 225);
+}
+
+#note{
+	text-transform: capitalize;
+	text-align: center;
+
+}
+
+.lang{
+	text-decoration: none;
+}
+
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgb(243, 237, 235);
+	padding-right: 5%;
+	padding-left: 5%;
+}
+.F1{
+	padding: 5px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+	font-size: large;
+}
+.links{
+	padding: 15px 30px;
+    font-size: 15px;
+    color: #70757a;
+	display: flex;
+}
+.links a{
+	text-decoration: none;
+	color: #70757a;
+	font-size: large;
+	flex: 1;
 }
